@@ -94,7 +94,7 @@ export default class App extends Component {
             <Text style={styles.closeButton}>{'CLOSE'}</Text>
           </TouchableOpacity>
 
-          <Text style={styles.json}>{JSON.stringify(services, null, 2)}</Text>
+          <Text style={styles.json}>{JSON.stringify(service, null, 2)}</Text>
         </SafeAreaView>
       )
     }
